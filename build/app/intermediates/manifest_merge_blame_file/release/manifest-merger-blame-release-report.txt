@@ -1,0 +1,229 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.socialmedialogin"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->D:\Programing\Android Studio\Flutter Apps\socialmedialogin\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->D:\Programing\Android Studio\Flutter Apps\socialmedialogin\android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->[:google_sign_in] D:\Programing\Android Studio\Flutter Apps\socialmedialogin\build\google_sign_in\intermediates\library_manifest\release\AndroidManifest.xml:7:5-67
+11-->[:google_sign_in] D:\Programing\Android Studio\Flutter Apps\socialmedialogin\build\google_sign_in\intermediates\library_manifest\release\AndroidManifest.xml:7:22-64
+12    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+12-->[com.android.installreferrer:installreferrer:1.0] C:\Users\Rushil\.gradle\caches\transforms-2\files-2.1\bfc67cfa1c3b3ddf5f799ad5dbed8a63\jetified-installreferrer-1.0\AndroidManifest.xml:9:5-110
+12-->[com.android.installreferrer:installreferrer:1.0] C:\Users\Rushil\.gradle\caches\transforms-2\files-2.1\bfc67cfa1c3b3ddf5f799ad5dbed8a63\jetified-installreferrer-1.0\AndroidManifest.xml:9:22-107
+13
+14    <application
+14-->D:\Programing\Android Studio\Flutter Apps\socialmedialogin\android\app\src\main\AndroidManifest.xml:3:4-54:19
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.3.2] C:\Users\Rushil\.gradle\caches\transforms-2\files-2.1\22596e141ed939448a45bb52248db646\core-1.3.2\AndroidManifest.xml:24:18-86
+16        android:icon="@mipmap/launcher_icon"
+16-->D:\Programing\Android Studio\Flutter Apps\socialmedialogin\android\app\src\main\AndroidManifest.xml:5:9-45
+17        android:label="Social Media Integration"
+17-->D:\Programing\Android Studio\Flutter Apps\socialmedialogin\android\app\src\main\AndroidManifest.xml:4:9-49
+18        android:supportsRtl="true" >
+18-->[com.facebook.android:facebook-login:9.1.0] C:\Users\Rushil\.gradle\caches\transforms-2\files-2.1\e3d0e4f44f796c32b531d761539d5755\jetified-facebook-login-9.1.0\AndroidManifest.xml:28:18-44
+19        <activity
+19-->D:\Programing\Android Studio\Flutter Apps\socialmedialogin\android\app\src\main\AndroidManifest.xml:7:9-35:20
+20            android:name="com.example.socialmedialogin.MainActivity"
+20-->D:\Programing\Android Studio\Flutter Apps\socialmedialogin\android\app\src\main\AndroidManifest.xml:8:13-41
+21            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+21-->D:\Programing\Android Studio\Flutter Apps\socialmedialogin\android\app\src\main\AndroidManifest.xml:11:13-163
+22            android:hardwareAccelerated="true"
+22-->D:\Programing\Android Studio\Flutter Apps\socialmedialogin\android\app\src\main\AndroidManifest.xml:12:13-47
+23            android:launchMode="singleTop"
+23-->D:\Programing\Android Studio\Flutter Apps\socialmedialogin\android\app\src\main\AndroidManifest.xml:9:13-43
+24            android:theme="@style/LaunchTheme"
+24-->D:\Programing\Android Studio\Flutter Apps\socialmedialogin\android\app\src\main\AndroidManifest.xml:10:13-47
+25            android:windowSoftInputMode="adjustResize" >
+25-->D:\Programing\Android Studio\Flutter Apps\socialmedialogin\android\app\src\main\AndroidManifest.xml:13:13-55
+26
+27            <!--
+28                 Specifies an Android theme to apply to this Activity as soon as
+29                 the Android process has started. This theme is visible to the user
+30                 while the Flutter UI initializes. After that, this theme continues
+31                 to determine the Window background behind the Flutter UI.
+32            -->
+33            <meta-data
+33-->D:\Programing\Android Studio\Flutter Apps\socialmedialogin\android\app\src\main\AndroidManifest.xml:18:13-21:17
+34                android:name="io.flutter.embedding.android.NormalTheme"
+34-->D:\Programing\Android Studio\Flutter Apps\socialmedialogin\android\app\src\main\AndroidManifest.xml:19:15-70
+35                android:resource="@style/NormalTheme" />
+35-->D:\Programing\Android Studio\Flutter Apps\socialmedialogin\android\app\src\main\AndroidManifest.xml:20:15-52
+36            <!--
+37                 Displays an Android View that continues showing the launch screen
+38                 Drawable until Flutter paints its first frame, then this splash
+39                 screen fades out. A splash screen is useful to avoid any visual
+40                 gap between the end of Android's launch screen and the painting of
+41                 Flutter's first frame.
+42            -->
+43            <meta-data
+43-->D:\Programing\Android Studio\Flutter Apps\socialmedialogin\android\app\src\main\AndroidManifest.xml:27:13-30:17
+44                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+44-->D:\Programing\Android Studio\Flutter Apps\socialmedialogin\android\app\src\main\AndroidManifest.xml:28:15-79
+45                android:resource="@drawable/launch_background" />
+45-->D:\Programing\Android Studio\Flutter Apps\socialmedialogin\android\app\src\main\AndroidManifest.xml:29:15-61
+46
+47            <intent-filter>
+47-->D:\Programing\Android Studio\Flutter Apps\socialmedialogin\android\app\src\main\AndroidManifest.xml:31:13-34:29
+48                <action android:name="android.intent.action.MAIN" />
+48-->D:\Programing\Android Studio\Flutter Apps\socialmedialogin\android\app\src\main\AndroidManifest.xml:32:17-68
+48-->D:\Programing\Android Studio\Flutter Apps\socialmedialogin\android\app\src\main\AndroidManifest.xml:32:25-66
+49
+50                <category android:name="android.intent.category.LAUNCHER" />
+50-->D:\Programing\Android Studio\Flutter Apps\socialmedialogin\android\app\src\main\AndroidManifest.xml:33:17-76
+50-->D:\Programing\Android Studio\Flutter Apps\socialmedialogin\android\app\src\main\AndroidManifest.xml:33:27-74
+51            </intent-filter>
+52        </activity>
+53
+54        <meta-data
+54-->D:\Programing\Android Studio\Flutter Apps\socialmedialogin\android\app\src\main\AndroidManifest.xml:37:8-106
+55            android:name="com.facebook.sdk.ApplicationId"
+55-->D:\Programing\Android Studio\Flutter Apps\socialmedialogin\android\app\src\main\AndroidManifest.xml:37:19-64
+56            android:value="@string/facebook_app_id" />
+56-->D:\Programing\Android Studio\Flutter Apps\socialmedialogin\android\app\src\main\AndroidManifest.xml:37:65-104
+57
+58        <activity
+58-->D:\Programing\Android Studio\Flutter Apps\socialmedialogin\android\app\src\main\AndroidManifest.xml:38:8-39:109
+59            android:name="com.facebook.FacebookActivity"
+59-->D:\Programing\Android Studio\Flutter Apps\socialmedialogin\android\app\src\main\AndroidManifest.xml:38:18-62
+60            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+60-->D:\Programing\Android Studio\Flutter Apps\socialmedialogin\android\app\src\main\AndroidManifest.xml:38:63-158
+61            android:label="@string/app_name"
+61-->D:\Programing\Android Studio\Flutter Apps\socialmedialogin\android\app\src\main\AndroidManifest.xml:39:74-106
+62            android:theme="@style/com_facebook_activity_theme" />
+62-->[com.facebook.android:facebook-common:9.1.0] C:\Users\Rushil\.gradle\caches\transforms-2\files-2.1\bfa714752849f65598e4e2180c2d8851\jetified-facebook-common-9.1.0\AndroidManifest.xml:33:13-63
+63        <activity
+63-->D:\Programing\Android Studio\Flutter Apps\socialmedialogin\android\app\src\main\AndroidManifest.xml:41:8-48:19
+64            android:name="com.facebook.CustomTabActivity"
+64-->D:\Programing\Android Studio\Flutter Apps\socialmedialogin\android\app\src\main\AndroidManifest.xml:41:18-63
+65            android:exported="true" >
+65-->D:\Programing\Android Studio\Flutter Apps\socialmedialogin\android\app\src\main\AndroidManifest.xml:41:64-87
+66            <intent-filter>
+66-->D:\Programing\Android Studio\Flutter Apps\socialmedialogin\android\app\src\main\AndroidManifest.xml:42:12-47:28
+67                <action android:name="android.intent.action.VIEW" />
+67-->D:\Programing\Android Studio\Flutter Apps\socialmedialogin\android\app\src\main\AndroidManifest.xml:43:16-68
+67-->D:\Programing\Android Studio\Flutter Apps\socialmedialogin\android\app\src\main\AndroidManifest.xml:43:24-65
+68
+69                <category android:name="android.intent.category.DEFAULT" />
+69-->D:\Programing\Android Studio\Flutter Apps\socialmedialogin\android\app\src\main\AndroidManifest.xml:44:16-75
+69-->D:\Programing\Android Studio\Flutter Apps\socialmedialogin\android\app\src\main\AndroidManifest.xml:44:26-72
+70                <category android:name="android.intent.category.BROWSABLE" />
+70-->D:\Programing\Android Studio\Flutter Apps\socialmedialogin\android\app\src\main\AndroidManifest.xml:45:16-77
+70-->D:\Programing\Android Studio\Flutter Apps\socialmedialogin\android\app\src\main\AndroidManifest.xml:45:26-74
+71
+72                <data android:scheme="@string/fb_login_protocol_scheme" />
+72-->D:\Programing\Android Studio\Flutter Apps\socialmedialogin\android\app\src\main\AndroidManifest.xml:46:16-74
+72-->D:\Programing\Android Studio\Flutter Apps\socialmedialogin\android\app\src\main\AndroidManifest.xml:46:22-71
+73            </intent-filter>
+74            <intent-filter>
+74-->[com.facebook.android:facebook-common:9.1.0] C:\Users\Rushil\.gradle\caches\transforms-2\files-2.1\bfa714752849f65598e4e2180c2d8851\jetified-facebook-common-9.1.0\AndroidManifest.xml:39:13-48:29
+75                <action android:name="android.intent.action.VIEW" />
+75-->D:\Programing\Android Studio\Flutter Apps\socialmedialogin\android\app\src\main\AndroidManifest.xml:43:16-68
+75-->D:\Programing\Android Studio\Flutter Apps\socialmedialogin\android\app\src\main\AndroidManifest.xml:43:24-65
+76
+77                <category android:name="android.intent.category.DEFAULT" />
+77-->D:\Programing\Android Studio\Flutter Apps\socialmedialogin\android\app\src\main\AndroidManifest.xml:44:16-75
+77-->D:\Programing\Android Studio\Flutter Apps\socialmedialogin\android\app\src\main\AndroidManifest.xml:44:26-72
+78                <category android:name="android.intent.category.BROWSABLE" />
+78-->D:\Programing\Android Studio\Flutter Apps\socialmedialogin\android\app\src\main\AndroidManifest.xml:45:16-77
+78-->D:\Programing\Android Studio\Flutter Apps\socialmedialogin\android\app\src\main\AndroidManifest.xml:45:26-74
+79
+80                <data
+80-->D:\Programing\Android Studio\Flutter Apps\socialmedialogin\android\app\src\main\AndroidManifest.xml:46:16-74
+81                    android:host="cct.com.example.socialmedialogin"
+82                    android:scheme="fbconnect" />
+82-->D:\Programing\Android Studio\Flutter Apps\socialmedialogin\android\app\src\main\AndroidManifest.xml:46:22-71
+83            </intent-filter>
+84        </activity>
+85        <!--
+86             Don't delete the meta-data below.
+87             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+88        -->
+89        <meta-data
+89-->D:\Programing\Android Studio\Flutter Apps\socialmedialogin\android\app\src\main\AndroidManifest.xml:51:9-53:33
+90            android:name="flutterEmbedding"
+90-->D:\Programing\Android Studio\Flutter Apps\socialmedialogin\android\app\src\main\AndroidManifest.xml:52:13-44
+91            android:value="2" />
+91-->D:\Programing\Android Studio\Flutter Apps\socialmedialogin\android\app\src\main\AndroidManifest.xml:53:13-30
+92
+93        <activity android:name="com.facebook.CustomTabMainActivity" />
+93-->[com.facebook.android:facebook-common:9.1.0] C:\Users\Rushil\.gradle\caches\transforms-2\files-2.1\bfa714752849f65598e4e2180c2d8851\jetified-facebook-common-9.1.0\AndroidManifest.xml:34:9-71
+93-->[com.facebook.android:facebook-common:9.1.0] C:\Users\Rushil\.gradle\caches\transforms-2\files-2.1\bfa714752849f65598e4e2180c2d8851\jetified-facebook-common-9.1.0\AndroidManifest.xml:34:19-68
+94        <!--
+95         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+96         with the application context. This config is merged in with the host app's manifest,
+97         but there can only be one provider with the same authority activated at any given
+98         point; so if the end user has two or more different apps that use Facebook SDK, only the
+99         first one will be able to use the provider. To work around this problem, we use the
+100         following placeholder in the authority to identify each host application as if it was
+101         a completely different provider.
+102        -->
+103        <provider
+103-->[com.facebook.android:facebook-core:9.1.0] C:\Users\Rushil\.gradle\caches\transforms-2\files-2.1\8efdc2c746f52734f8af17ee19f8428d\jetified-facebook-core-9.1.0\AndroidManifest.xml:39:9-42:40
+104            android:name="com.facebook.internal.FacebookInitProvider"
+104-->[com.facebook.android:facebook-core:9.1.0] C:\Users\Rushil\.gradle\caches\transforms-2\files-2.1\8efdc2c746f52734f8af17ee19f8428d\jetified-facebook-core-9.1.0\AndroidManifest.xml:40:13-70
+105            android:authorities="com.example.socialmedialogin.FacebookInitProvider"
+105-->[com.facebook.android:facebook-core:9.1.0] C:\Users\Rushil\.gradle\caches\transforms-2\files-2.1\8efdc2c746f52734f8af17ee19f8428d\jetified-facebook-core-9.1.0\AndroidManifest.xml:41:13-72
+106            android:exported="false" />
+106-->[com.facebook.android:facebook-core:9.1.0] C:\Users\Rushil\.gradle\caches\transforms-2\files-2.1\8efdc2c746f52734f8af17ee19f8428d\jetified-facebook-core-9.1.0\AndroidManifest.xml:42:13-37
+107
+108        <receiver
+108-->[com.facebook.android:facebook-core:9.1.0] C:\Users\Rushil\.gradle\caches\transforms-2\files-2.1\8efdc2c746f52734f8af17ee19f8428d\jetified-facebook-core-9.1.0\AndroidManifest.xml:44:9-50:20
+109            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+109-->[com.facebook.android:facebook-core:9.1.0] C:\Users\Rushil\.gradle\caches\transforms-2\files-2.1\8efdc2c746f52734f8af17ee19f8428d\jetified-facebook-core-9.1.0\AndroidManifest.xml:45:13-86
+110            android:exported="false" >
+110-->[com.facebook.android:facebook-core:9.1.0] C:\Users\Rushil\.gradle\caches\transforms-2\files-2.1\8efdc2c746f52734f8af17ee19f8428d\jetified-facebook-core-9.1.0\AndroidManifest.xml:46:13-37
+111            <intent-filter>
+111-->[com.facebook.android:facebook-core:9.1.0] C:\Users\Rushil\.gradle\caches\transforms-2\files-2.1\8efdc2c746f52734f8af17ee19f8428d\jetified-facebook-core-9.1.0\AndroidManifest.xml:47:13-49:29
+112                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+112-->[com.facebook.android:facebook-core:9.1.0] C:\Users\Rushil\.gradle\caches\transforms-2\files-2.1\8efdc2c746f52734f8af17ee19f8428d\jetified-facebook-core-9.1.0\AndroidManifest.xml:48:17-95
+112-->[com.facebook.android:facebook-core:9.1.0] C:\Users\Rushil\.gradle\caches\transforms-2\files-2.1\8efdc2c746f52734f8af17ee19f8428d\jetified-facebook-core-9.1.0\AndroidManifest.xml:48:25-92
+113            </intent-filter>
+114        </receiver>
+115
+116        <activity
+116-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Rushil\.gradle\caches\transforms-2\files-2.1\b2c488b49f23d3e3ade36ff487b6a04a\jetified-play-services-auth-16.0.1\AndroidManifest.xml:23:9-27:75
+117            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+117-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Rushil\.gradle\caches\transforms-2\files-2.1\b2c488b49f23d3e3ade36ff487b6a04a\jetified-play-services-auth-16.0.1\AndroidManifest.xml:24:13-93
+118            android:excludeFromRecents="true"
+118-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Rushil\.gradle\caches\transforms-2\files-2.1\b2c488b49f23d3e3ade36ff487b6a04a\jetified-play-services-auth-16.0.1\AndroidManifest.xml:25:13-46
+119            android:exported="false"
+119-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Rushil\.gradle\caches\transforms-2\files-2.1\b2c488b49f23d3e3ade36ff487b6a04a\jetified-play-services-auth-16.0.1\AndroidManifest.xml:26:13-37
+120            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+120-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Rushil\.gradle\caches\transforms-2\files-2.1\b2c488b49f23d3e3ade36ff487b6a04a\jetified-play-services-auth-16.0.1\AndroidManifest.xml:27:13-72
+121        <!--
+122            Service handling Google Sign-In user revocation. For apps that do not integrate with
+123            Google Sign-In, this service will never be started.
+124        -->
+125        <service
+125-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Rushil\.gradle\caches\transforms-2\files-2.1\b2c488b49f23d3e3ade36ff487b6a04a\jetified-play-services-auth-16.0.1\AndroidManifest.xml:33:9-36:110
+126            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+126-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Rushil\.gradle\caches\transforms-2\files-2.1\b2c488b49f23d3e3ade36ff487b6a04a\jetified-play-services-auth-16.0.1\AndroidManifest.xml:34:13-89
+127            android:exported="true"
+127-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Rushil\.gradle\caches\transforms-2\files-2.1\b2c488b49f23d3e3ade36ff487b6a04a\jetified-play-services-auth-16.0.1\AndroidManifest.xml:35:13-36
+128            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+128-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\Rushil\.gradle\caches\transforms-2\files-2.1\b2c488b49f23d3e3ade36ff487b6a04a\jetified-play-services-auth-16.0.1\AndroidManifest.xml:36:13-107
+129
+130        <activity
+130-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Rushil\.gradle\caches\transforms-2\files-2.1\3139cd93ba9abc4f1092b95c956c94e7\jetified-play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
+131            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+131-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Rushil\.gradle\caches\transforms-2\files-2.1\3139cd93ba9abc4f1092b95c956c94e7\jetified-play-services-base-16.0.1\AndroidManifest.xml:24:13-79
+132            android:exported="false"
+132-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Rushil\.gradle\caches\transforms-2\files-2.1\3139cd93ba9abc4f1092b95c956c94e7\jetified-play-services-base-16.0.1\AndroidManifest.xml:25:13-37
+133            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+133-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Rushil\.gradle\caches\transforms-2\files-2.1\3139cd93ba9abc4f1092b95c956c94e7\jetified-play-services-base-16.0.1\AndroidManifest.xml:26:13-72
+134
+135        <meta-data
+135-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\Rushil\.gradle\caches\transforms-2\files-2.1\4800a01b50232eb7ca7e00018ea6c664\jetified-play-services-basement-16.0.1\AndroidManifest.xml:23:9-25:69
+136            android:name="com.google.android.gms.version"
+136-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\Rushil\.gradle\caches\transforms-2\files-2.1\4800a01b50232eb7ca7e00018ea6c664\jetified-play-services-basement-16.0.1\AndroidManifest.xml:24:13-58
+137            android:value="@integer/google_play_services_version" />
+137-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\Rushil\.gradle\caches\transforms-2\files-2.1\4800a01b50232eb7ca7e00018ea6c664\jetified-play-services-basement-16.0.1\AndroidManifest.xml:25:13-66
+138    </application>
+139
+140</manifest>

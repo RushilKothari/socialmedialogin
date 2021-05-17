@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "D:\\Programing\\Android Studio\\Flutter Apps\\socialmedialogin\\build\\flutter_facebook_login\\intermediates\\res\\merged\\release\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "C:\\Users\\Rushil\\.gradle\\caches\\transforms-2\\files-2.1\\ddfeebee320e213e4569474cdfe875cf\\appcompat-1.0.0\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "D:\\Programing\\Android Studio\\Flutter Apps\\socialmedialogin\\build\\flutter_facebook_login\\intermediates\\res\\merged\\release\\anim\\abc_slide_in_top.xml",
+        "source": "C:\\Users\\Rushil\\.gradle\\caches\\transforms-2\\files-2.1\\ddfeebee320e213e4569474cdfe875cf\\appcompat-1.0.0\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "D:\\Programing\\Android Studio\\Flutter Apps\\socialmedialogin\\build\\flutter_facebook_login\\intermediates\\res\\merged\\release\\anim\\abc_fade_in.xml",
+        "source": "C:\\Users\\Rushil\\.gradle\\caches\\transforms-2\\files-2.1\\ddfeebee320e213e4569474cdfe875cf\\appcompat-1.0.0\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "D:\\Programing\\Android Studio\\Flutter Apps\\socialmedialogin\\build\\flutter_facebook_login\\intermediates\\res\\merged\\release\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Users\\Rushil\\.gradle\\caches\\transforms-2\\files-2.1\\ddfeebee320e213e4569474cdfe875cf\\appcompat-1.0.0\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "D:\\Programing\\Android Studio\\Flutter Apps\\socialmedialogin\\build\\flutter_facebook_login\\intermediates\\res\\merged\\release\\anim\\abc_fade_out.xml",
+        "source": "C:\\Users\\Rushil\\.gradle\\caches\\transforms-2\\files-2.1\\ddfeebee320e213e4569474cdfe875cf\\appcompat-1.0.0\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "D:\\Programing\\Android Studio\\Flutter Apps\\socialmedialogin\\build\\flutter_facebook_login\\intermediates\\res\\merged\\release\\anim\\abc_popup_enter.xml",
+        "source": "C:\\Users\\Rushil\\.gradle\\caches\\transforms-2\\files-2.1\\ddfeebee320e213e4569474cdfe875cf\\appcompat-1.0.0\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "D:\\Programing\\Android Studio\\Flutter Apps\\socialmedialogin\\build\\flutter_facebook_login\\intermediates\\res\\merged\\release\\anim\\abc_tooltip_exit.xml",
+        "source": "C:\\Users\\Rushil\\.gradle\\caches\\transforms-2\\files-2.1\\ddfeebee320e213e4569474cdfe875cf\\appcompat-1.0.0\\res\\anim\\abc_tooltip_exit.xml"
+    },
+    {
+        "merged": "D:\\Programing\\Android Studio\\Flutter Apps\\socialmedialogin\\build\\flutter_facebook_login\\intermediates\\res\\merged\\release\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\Users\\Rushil\\.gradle\\caches\\transforms-2\\files-2.1\\ddfeebee320e213e4569474cdfe875cf\\appcompat-1.0.0\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "D:\\Programing\\Android Studio\\Flutter Apps\\socialmedialogin\\build\\flutter_facebook_login\\intermediates\\res\\merged\\release\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Users\\Rushil\\.gradle\\caches\\transforms-2\\files-2.1\\ddfeebee320e213e4569474cdfe875cf\\appcompat-1.0.0\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "D:\\Programing\\Android Studio\\Flutter Apps\\socialmedialogin\\build\\flutter_facebook_login\\intermediates\\res\\merged\\release\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "C:\\Users\\Rushil\\.gradle\\caches\\transforms-2\\files-2.1\\ddfeebee320e213e4569474cdfe875cf\\appcompat-1.0.0\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "D:\\Programing\\Android Studio\\Flutter Apps\\socialmedialogin\\build\\flutter_facebook_login\\intermediates\\res\\merged\\release\\anim\\abc_popup_exit.xml",
+        "source": "C:\\Users\\Rushil\\.gradle\\caches\\transforms-2\\files-2.1\\ddfeebee320e213e4569474cdfe875cf\\appcompat-1.0.0\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "D:\\Programing\\Android Studio\\Flutter Apps\\socialmedialogin\\build\\flutter_facebook_login\\intermediates\\res\\merged\\release\\anim\\abc_tooltip_enter.xml",
+        "source": "C:\\Users\\Rushil\\.gradle\\caches\\transforms-2\\files-2.1\\ddfeebee320e213e4569474cdfe875cf\\appcompat-1.0.0\\res\\anim\\abc_tooltip_enter.xml"
+    }
+]

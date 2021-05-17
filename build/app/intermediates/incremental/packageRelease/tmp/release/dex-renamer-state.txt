@@ -1,0 +1,4 @@
+#Sun May 16 21:37:29 IST 2021
+base.0=D\:\\Programing\\Android Studio\\Flutter Apps\\socialmedialogin\\build\\app\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
